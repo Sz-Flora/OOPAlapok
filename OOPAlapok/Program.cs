@@ -33,7 +33,7 @@ namespace OOPAlapok
                     kor = value;
                 }
             }
-        }
+        } 
 
         public string Kiir()
         {
