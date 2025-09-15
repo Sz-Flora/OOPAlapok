@@ -75,15 +75,24 @@ namespace OOPAlapok
     public class Hallgato : Szemely
     {
         private string _neptunkod;
-
+        
+        public string Neptunkod
+        {
+            get { return _neptunkod; }
+            set 
+            {
+                if(_neptunkod.Length <= 6)
+                    _neptunkod = value;
+                else
+                    Console.WriteLine("Túl hosszú a kód");
+            }
+        }
         public override string ToString()
         {
             _nev = "Gábor";
             return $"A hallgató neve:{_nev}";
         }
     }
-
-
     internal class Program
     {
         static void Main(string[] args)
