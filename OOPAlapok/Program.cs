@@ -103,8 +103,24 @@ namespace OOPAlapok
             person.Kor = 23;
             Console.WriteLine(person);
 
-            Hallgato student = new Hallgato();
-            Console.WriteLine(student);
+            Hallgato student1 = new Hallgato();
+            Console.WriteLine(student1);
+
+            List<Hallgato> studentList = new List<Hallgato>();
+            for (int i = 0; i < 3; i++) 
+            {
+                Hallgato student2 = new Hallgato();
+                Console.WriteLine($"Kérem a(z) {i+1} hallgató nevét:");
+                student2.Nev = Console.ReadLine();
+                Console.WriteLine($"Kérem a(z) {i + 1} hallgató életkorát:");
+                student2.Kor = int.Parse(Console.ReadLine());
+                studentList.Add(student2);
+            }
+
+            foreach (var item in studentList)
+            {
+                Console.WriteLine(item.Nev);
+            }
 
             /*Szemely person = new Szemely("Ilona", 44);
             Console.WriteLine(person.Kiir());*/
