@@ -71,6 +71,12 @@ namespace OOPAlapok
 
         }
     }
+
+    public class Hallgato : Szemely
+    {
+        private string _neptunkod;
+    }
+
     internal class Program
     {
         static void Main(string[] args)
