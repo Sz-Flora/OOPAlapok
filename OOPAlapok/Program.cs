@@ -45,9 +45,31 @@ namespace OOPAlapok
         /*public string Kiir()
         {
             return $"A személy neve: {nev} és életkora: {kor}";
-        }*/
+        }*/         
+    }
 
-          
+    public class Bankszamla
+    {
+        private int _egyenleg;
+        public int Egyenleg
+        {
+            get{ return _egyenleg; }
+            set 
+            {
+                if (value > 0)
+                    _egyenleg = value; 
+                else
+                    Console.WriteLine("Az egyenleg nem lehet nulla.");
+            }
+        }
+        public void Betesz()
+        {
+
+        }
+        public void Kivesz()
+        {
+
+        }
     }
     internal class Program
     {
