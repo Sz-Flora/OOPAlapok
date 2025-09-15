@@ -93,6 +93,17 @@ namespace OOPAlapok
             return $"A hallgató neve:{_nev}";
         }
     }
+
+    public class Dolgozo : Szemely
+    {
+        private int _ber;
+        public override string ToString()
+        {
+            _nev = "Ilona";
+            return $"A dolgozó neve:{_nev}";
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
@@ -121,6 +132,9 @@ namespace OOPAlapok
             {
                 Console.WriteLine(item.Nev);
             }
+
+            Dolgozo worker = new Dolgozo();
+            Console.WriteLine(worker);
 
             /*Szemely person = new Szemely("Ilona", 44);
             Console.WriteLine(person.Kiir());*/
