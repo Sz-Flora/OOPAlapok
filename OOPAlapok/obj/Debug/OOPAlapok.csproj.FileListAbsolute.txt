@@ -5,3 +5,13 @@ U:\13.oszt\backend\OOPAlapok\OOPAlapok\obj\Debug\OOPAlapok.csproj.AssemblyRefere
 U:\13.oszt\backend\OOPAlapok\OOPAlapok\obj\Debug\OOPAlapok.csproj.CoreCompileInputs.cache
 U:\13.oszt\backend\OOPAlapok\OOPAlapok\obj\Debug\OOPAlapok.exe
 U:\13.oszt\backend\OOPAlapok\OOPAlapok\obj\Debug\OOPAlapok.pdb
+<<<<<<< HEAD
+=======
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\bin\Debug\OOPAlapok.exe.config
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\bin\Debug\OOPAlapok.exe
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\bin\Debug\OOPAlapok.pdb
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\obj\Debug\OOPAlapok.csproj.AssemblyReference.cache
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\obj\Debug\OOPAlapok.csproj.CoreCompileInputs.cache
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\obj\Debug\OOPAlapok.exe
+C:\Users\floro\Desktop\OOPAlapok-main\OOPAlapok\obj\Debug\OOPAlapok.pdb
+>>>>>>> 5aacd71b631b7b820f135c7d80caad79ab73a233
